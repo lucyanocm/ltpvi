@@ -12,10 +12,10 @@ namespace LTPVI.API.Controllers
     [Route("[controller]")]
     public class AlunoController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<AlunoController> _logger;
         private List<Aluno> _alunos;
 
-        public AlunoController(ILogger<WeatherForecastController> logger)
+        public AlunoController(ILogger<AlunoController> logger)
         {
             _logger = logger;
 
